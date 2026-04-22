@@ -77,8 +77,10 @@ http://localhost/lokimart
 Only required if email functionality is not working on the support and confirmation pages:  
 Files that require configuration:  
 -	lokimart/logic/send_order_email.php  
--	lokimart/logic/support_logic.php  
+-	lokimart/logic/support_logic.php
+  
 Steps to configure email settings:  
+
 1.	Open the files listed above and locate the PHPMailer section.  
 2.	Replace the default email with your own:  
 -	mail->Username = 'your-email@gmail.com';  
@@ -91,7 +93,5 @@ Steps to configure email settings:
 -	Replace the password in the PHPMailer code:  
 -	$mail->Password = 'your-app-password';  
 6. Replace your-email@gmail.com and your-app-password with your own details.
-
-
 
 Note: This project uses demo credentials for testing purposes.
