@@ -6,6 +6,42 @@ Full-stack e-commerce web application featuring user authentication, product man
 
 ## Installation and Setup Guide
 
+## Installation Steps
+
+### Download and Setup Project
+Download or clone the repository
+Extract the project folder lokimart
+
+### Move Project to XAMPP Directory
+Copy the extracted folder into:
+xampp/htdocs/
+Example:
+xampp/htdocs/lokimart
+
+### Start XAMPP Server
+Open XAMPP Control Panel and start:
+Apache ✔
+MySQL ✔
+
+### Create Database
+Open browser
+Go to:
+http://localhost/phpmyadmin
+Click New
+Create database:
+lokimart_db
+
+### Import Database File
+Open the created database lokimart_db
+Click Import
+Select file:
+lokimart_db.sql
+Click Go
+
+### Run the Project
+Open browser and go to:
+http://localhost/lokimart
+
 ## Login Credentials
 ### Administrator
 •	Username: admin 
