@@ -85,6 +85,7 @@ Steps to configure email settings:
 -	Generate a new 16-character App Password
 -	Replace the password in the PHPMailer code:
 -	$mail->Password = 'your-app-password';
-Replace your-email@gmail.com and your-app-password with your own details.
+3. Replace your-email@gmail.com and your-app-password with your own details.
+Note: This project uses demo credentials for testing purposes.
 Note: This project uses demo credentials for testing purposes.
 
