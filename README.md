@@ -74,7 +74,7 @@ http://localhost/lokimart
 -	Role: customer
 
 ## Email Configuration (PHPMailer)  
-Only required if email functionality is not working on the support and confirmation pages:  
+**Only required if email functionality is not working** on the support and confirmation pages:  
 Files that require configuration:  
 -	lokimart/logic/send_order_email.php  
 -	lokimart/logic/support_logic.php
