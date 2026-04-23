@@ -89,14 +89,13 @@ Steps to configure email settings:
 
 3.	Generate a Google App Password and replace the example password:  
 
-4.	Google requires an App Password when using PHPMailer with Gmail **(2-Step Verification must be enabled).**  
-
-5.	Steps:
+4.	Google requires an App Password when using PHPMailer with Gmail **(2-Step Verification must be enabled).**
+Steps:
 -	Visit: https://myaccount.google.com/apppasswords  
 -	Generate a new 16-character App Password  
 -	Replace the password in the PHPMailer code:  
 -	$mail->Password = 'your-app-password';  
 
-6. Replace your-email@gmail.com and your-app-password with your own details.
+5. Replace your-email@gmail.com and your-app-password with your own details.
 
 Note: This **project uses demo credentials for testing purposes.**
