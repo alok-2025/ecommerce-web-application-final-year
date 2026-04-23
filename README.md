@@ -83,7 +83,7 @@ Steps to configure email settings:
 
 1.	Open the files listed above and locate the PHPMailer section.
 
-2.	Replace the default email with your own:  
+2.	Replace the default email with your own:
 -	mail->Username = 'your-email@gmail.com';  
 -	$mail->setFrom('your-email@gmail.com', 'LokiMart');  
 
@@ -91,7 +91,7 @@ Steps to configure email settings:
 
 4.	Google requires an App Password when using PHPMailer with Gmail **(2-Step Verification must be enabled).**  
 
-5.	Steps:  
+5.	Steps:
 -	Visit: https://myaccount.google.com/apppasswords  
 -	Generate a new 16-character App Password  
 -	Replace the password in the PHPMailer code:  
