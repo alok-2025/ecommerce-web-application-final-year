@@ -4,7 +4,7 @@ Full-stack e-commerce web application featuring user authentication, product man
 
 ---
 
-## Installation and Setup Guide
+## Setup Guide
 
 ## Installation Steps
 
