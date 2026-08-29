@@ -10,18 +10,18 @@ Full-stack e-commerce web application featuring user authentication, product man
 
 ### Download and Setup Project
 - Download or clone the repository  
-- Extract the ZIP file  
-- Rename the folder to `lokimart` (if needed)  
-- Copy the folder into your XAMPP `htdocs` directory  
+- Extract the ZIP file
+- Open the extracted folder   
+- Copy the folder named "ecommerce-web-application-final-year-main" into your XAMPP `htdocs` directory  
 
 Final path should be:  
-xampp/htdocs/lokimart  
+xampp/htdocs/ecommerce-web-application-final-year-main  
 
 ### Move Project to XAMPP Directory  
 Copy the extracted folder into:  
 xampp/htdocs/  
 Example:  
-xampp/htdocs/lokimart  
+xampp/htdocs/ecommerce-web-application-final-year-main  
 
 ### Start XAMPP Server
 Open XAMPP Control Panel and start:  
@@ -45,7 +45,7 @@ Click Go
 
 ### Run the Project  
 Open browser and go to:  
-http://localhost/lokimart  
+http://localhost/ecommerce-web-application-final-year-main  
 
 ## Login Credentials
 
