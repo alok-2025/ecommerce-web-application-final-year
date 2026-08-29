@@ -42,16 +42,6 @@ CREATE TABLE `orders` (
 -- Dumping data for table `orders`
 --
 
-INSERT INTO `orders` (`id`, `customer_name`, `customer_email`, `customer_address`, `total_price`, `status`, `created_by`, `created_at`) VALUES
-(11, 'mayank verma', 'user1@example.com', 'east park, lusaka', 601.50, 'Processing', 'mayank', '2025-07-30 19:14:42'),
-(25, 'Bright Mulenga', 'user2@example.com', 'ZCAS, Lusaka', 3000.98, 'Cancelled', 'mayank', '2025-10-03 17:22:29'),
-(34, 'akhil kumar', 'user3@example.com', 'nipa area', 9404.89, 'Cancelled', 'alok', '2025-10-07 23:23:50'),
-(35, 'Sambhavi Kumar', 'user4@example.com', 'area 87 lusaka', 476.09, 'Completed', 'alok', '2025-10-07 23:48:18'),
-(36, 'Sajjad Munshi', 'user5@example.com', 'melissa lusaka', 349.19, 'Shipping', 'alok', '2025-10-08 00:03:40'),
-(37, 'chris brown', 'user6@example.com', 'unza university', 9256.39, 'Processing', 'myk', '2025-10-08 20:58:30'),
-(38, 'avinash gupta', 'user7@example.com', 'leopard hills', 159.30, 'Processing', 'myk', '2025-10-08 21:33:09'),
-(39, 'Alok Verma', 'user8@example.com', 'eastpark roma', 623.10, 'Shipping', 'alok', '2025-12-08 13:12:54');
-
 -- --------------------------------------------------------
 
 --
@@ -70,23 +60,6 @@ CREATE TABLE `order_items` (
 --
 -- Dumping data for table `order_items`
 --
-
-INSERT INTO `order_items` (`id`, `order_id`, `product_id`, `product_name`, `quantity`, `price`) VALUES
-(11, 11, 2, 'Skin Lotion', 2, 300.75),
-(25, 25, 3, 'Headset', 2, 1500.49),
-(38, 34, 4, 'iPhone 12', 1, 9250.99),
-(39, 34, 8, 'Battery', 1, 5.40),
-(40, 34, 10, 'Lipgloss', 1, 148.50),
-(41, 35, 2, 'Skin Lotion', 1, 300.75),
-(42, 35, 9, 'Blush', 1, 175.34),
-(43, 36, 11, 'Eye Shadow', 1, 200.69),
-(44, 36, 10, 'Lipgloss', 1, 148.50),
-(45, 37, 4, 'iPhone 12', 1, 9250.99),
-(46, 37, 8, 'Battery', 1, 5.40),
-(47, 38, 8, 'Battery', 2, 5.40),
-(48, 38, 10, 'Lipgloss', 1, 148.50),
-(49, 39, 2, 'Skin Lotion', 2, 300.75),
-(50, 39, 8, 'Battery', 4, 5.40);
 
 -- --------------------------------------------------------
 
@@ -111,12 +84,6 @@ CREATE TABLE `payments` (
 --
 -- Dumping data for table `payments`
 --
-
-INSERT INTO `payments` (`id`, `order_id`, `first_name`, `last_name`, `email`, `mobile_money_operator`, `mobile_money_number`, `amount`, `payment_status`, `payment_date`, `product_names`) VALUES
-(16, 36, 'mykie', 'versace', 'user1@example.com', 'Zamtel', '09727', 349.19, 'Pending', '2025-10-08 00:04:37', 'Eye Shadow, Lipgloss'),
-(17, 37, 'Michael ', 'Keane', 'user2@example.com', 'MTN', '09711', 9256.39, 'Failed', '2025-10-08 21:07:03', 'iPhone 12, Battery'),
-(18, 38, 'Michael ', 'Sesko', 'user3@example.com', 'Airtel', '09799', 159.30, 'Successful', '2025-10-08 21:40:25', 'Battery, Lipgloss'),
-(20, 39, 'Alok ', 'Verma', 'user4@example.com', 'Airtel', '269898', 623.10, 'Successful', '2025-12-08 13:18:07', 'Skin Lotion, Battery');
 
 -- --------------------------------------------------------
 
@@ -169,12 +136,6 @@ CREATE TABLE `reviews` (
 -- Dumping data for table `reviews`
 --
 
-INSERT INTO `reviews` (`id`, `product_id`, `user_id`, `rating`, `comment`, `created_at`) VALUES
-(8, 9, 13, 1, 'it does not add a natural flush of color and i did not get the parcel was already torn', '2025-09-27 16:16:27'),
-(9, 4, 2, 5, 'the packing of the parcel is done in a good way and the phone looks exactly like it is in the picture shown', '2025-09-27 16:30:10'),
-(10, 3, 2, 3, 'a good quality product', '2025-10-03 15:19:31'),
-(11, 2, 1, 3, 'good product, gives smooth skin', '2025-12-08 11:11:12');
-
 -- --------------------------------------------------------
 
 --
@@ -195,12 +156,6 @@ CREATE TABLE `support` (
 --
 -- Dumping data for table `support`
 --
-
-INSERT INTO `support` (`id`, `fullname`, `phone`, `address`, `email`, `message`, `created_by`, `created_at`) VALUES
-(1, 'loki odinson', '+260 96 211447', '1578, Lusaka', 'user1@example.com', 'add cutlery products', 'mayank', '2025-07-29 17:02:36'),
-(2, 'mayank verma', '+260 96 27988', 'hotel sarovar', 'user2@example.com', 'are you available on other social media apps apart from the ones seen here?', 'mayank', '2025-10-09 23:00:03'),
-(4, 'alok verma', '+260 96 29714', 'roma park', 'user3@example.com', 'will you planning to add game consoles?', 'alok', '2025-11-21 20:35:45'),
-(5, 'Alok Verma', '+2608989147', 'chaisa, lusaka', 'user4@example.com', 'are you planning to add electric machines?', 'alok', '2025-12-08 12:09:55');
 
 -- --------------------------------------------------------
 
