@@ -531,6 +531,9 @@ nav ul.nav-icons img.profile-pic {
     z-index: 1;
     box-shadow: 0 1px 3px rgba(0,0,0,0.3);
 }
+.empty-table-message {
+    text-align: center !important;
+}
 .product-card img {
     max-width: 100%;
     height: auto;
