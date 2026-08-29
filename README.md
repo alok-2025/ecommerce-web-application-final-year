@@ -32,10 +32,10 @@ Create database:
 
 ### Import Database File  
 Open the created database **lokimart_db**
-Click Import
+Click Import  
 Select file:  
 **lokimart_db.sql**
-Click Go
+Click Go  
 
 ### Run the Project  
 Open browser and go to:  
