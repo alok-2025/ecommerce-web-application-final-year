@@ -27,7 +27,7 @@
             <p>Have questions or need help with your order? We're here for you.</p>
             <div class="support-info">
                 <p><strong>Email:</strong> <a href="mailto:contact@example.com">contact@example.com</a></p>
-                <p><strong>Phone:</strong> +260 97 203 9871</p>
+                <p><strong>Phone:</strong> +260 97 123 4567</p>
                 <p><strong>Address:</strong> Dedan Kimathi Road, Lusaka, Zambia</p>
             </div>
         </div>
