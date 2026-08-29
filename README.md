@@ -24,17 +24,14 @@ MySQL ✔
 
 ### Create Database  
 Open browser  
-Go to:  
-http://localhost/phpmyadmin  
+Go to:  http://localhost/phpmyadmin  
 Click New  
-Create database:  
-**lokimart_db**
+Create database:  **lokimart_db**
 
 ### Import Database File  
 Open the created database **lokimart_db**  
 Click Import  
-Select file:  
-**lokimart_db.sql**  
+Select file:  **lokimart_db.sql**  
 Click Go  
 
 ### Run the Project  
