@@ -14,7 +14,7 @@ Full-stack e-commerce web application featuring user authentication, product man
 - Open the extracted repository folder  
 - Copy the folder named **ecommerce-web-application-final-year-main** into your XAMPP htdocs directory  
 
-Final path should be:  
+**Final path should be:**  
 xampp/htdocs/ecommerce-web-application-final-year-main  
 
 ### Start XAMPP Server
