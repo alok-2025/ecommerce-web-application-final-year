@@ -31,7 +31,10 @@ Create database:  **lokimart_db**
 ### Import Database File  
 Open the created database **lokimart_db**  
 Click Import  
-Select file:  **lokimart_db.sql**  
+Click Choose File  
+Locate the database file at:  
+xampp/htdocs/ecommerce-web-application-final-year-main/lokimart_db.sql  
+Select  **lokimart_db.sql**  
 Click Go  
 
 ### Run the Project  
