@@ -477,8 +477,8 @@ nav ul.nav-icons img.profile-pic {
     text-align: center;
     position: relative;
 }
-.low-stock-badge {
-    background-color: #dc3545; /* Bootstrap's danger red */
+.out-of-stock-badge {
+    background-color: #dc3545;
     color: white;
     font-family: 'Poppins', sans-serif !important;
     font-size: 0.75rem;
@@ -490,8 +490,36 @@ nav ul.nav-icons img.profile-pic {
     z-index: 1;
     box-shadow: 0 1px 3px rgba(0,0,0,0.3);
 }
+
+.very-low-stock-badge {
+    background-color: #fd7e14;
+    color: white;
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 0.75rem;
+    padding: 3px 8px;
+    border-radius: 12px;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    z-index: 1;
+}
+
+.low-stock-badge {
+    background-color: #ffc107;
+    color: black;
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 0.75rem;
+    padding: 3px 8px;
+    border-radius: 12px;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    z-index: 1;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+}
+
 .in-stock-badge {
-    background-color: #28a745; /* Bootstrap's success green */
+    background-color: #28a745;
     color: white;
     font-family: 'Poppins', sans-serif !important;
     font-size: 0.75rem;
