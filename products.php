@@ -62,7 +62,11 @@ if (isset($_SESSION['payment_success'])) {
                     while ($row = mysqli_fetch_assoc($result)) {
                         echo '<div class="product-card" data-name="' . strtolower($row['name']) . '">';
 
-                        if ($row['quantity'] <= 20) {
+                        if ($row['quantity'] == 0) {
+                            echo '<span class="badge out-of-stock-badge">Out of Stock</span>';
+                        } elseif ($row['quantity'] <= 10) {
+                            echo '<span class="badge very-low-stock-badge">Very Low Stock</span>';
+                        } elseif ($row['quantity'] <= 20) {
                             echo '<span class="badge low-stock-badge">Low Stock</span>';
                         } else {
                             echo '<span class="badge in-stock-badge">In Stock</span>';
