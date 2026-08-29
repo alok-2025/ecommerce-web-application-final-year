@@ -31,7 +31,7 @@ Create database:
 **lokimart_db**
 
 ### Import Database File  
-Open the created database **lokimart_db** 
+Open the created database **lokimart_db**
 Click Import  
 Select file:  
 **lokimart_db.sql**
