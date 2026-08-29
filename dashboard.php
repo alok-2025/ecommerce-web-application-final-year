@@ -238,8 +238,8 @@ if (session_status() === PHP_SESSION_NONE) session_start();
                             <tr>
                                 <td><?= $i++ ?></td>
                                 <td><?= htmlspecialchars($message['fullname']) ?></td>
+								<td><?= htmlspecialchars($message['email']) ?></td>
                                 <td><?= htmlspecialchars($message['address']) ?></td>
-                                <td><?= htmlspecialchars($message['email']) ?></td>
                                 <td><?= htmlspecialchars($message['created_by']) ?></td>
                                 <td><?= date("d M Y H:i", strtotime($message['created_at'])) ?></td>
                             </tr>
